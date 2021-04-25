@@ -37,6 +37,7 @@ jobs:
     - name: Build Web
       run: |
         mkdir -p ./build/web2/html
+        mkdir -p ./build/web2/canvaskit
         flutter build web --release --web-renderer html
         cp -av ./build/web ./build/web2/html
         flutter build web --release --web-renderer canvaskit
