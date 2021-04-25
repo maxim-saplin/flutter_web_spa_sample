@@ -1,0 +1,46 @@
+name: flutter_web_spa_sample
+description: Trying out Flutter as an alternative to SPA frameworks (such as React and Angular) by recreating one the pages of CV Management web app used by an IT company
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0-0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  custom_pop_up_menu: ^1.2.0
+  flutter_hooks: ^0.16.0
+  page_transition: ^2.0.1-nullsafety.0
+  provider: ^5.0.0
+  shared_preferences: ^2.0.4
+  i18n_extension: ^4.0.0
+  highlight_text: ^1.0.0
+  grpc: ^3.0.0
+  jwt_decoder: ^2.0.1
+  data_table_2: "^2.0.0-dev.1"
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+  fonts:
+    - family: icons
+      fonts:
+        - asset: assets/icons.ttf
+  
+  
+  
+  
+  
+  
+  
+  
