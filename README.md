@@ -1,5 +1,6 @@
-[HTML Renderer Demo](https://maxim-saplin.github.io/flutter_web_spa_sample/html/)
-[CanvasKit Renderer Demo](https://maxim-saplin.github.io/flutter_web_spa_sample/canvaskit/)
+## [HTML Renderer Demo](https://maxim-saplin.github.io/flutter_web_spa_sample/html/)
+
+## [CanvasKit Renderer Demo](https://maxim-saplin.github.io/flutter_web_spa_sample/canvaskit/)
 
 This repo contains a PoC of using Flutter as a traditional SPA framework for creating a desktop web app. The original app is based on AngularJS, uses OData to communicate with NodeJS/MongoDB back-end. This PoC mocks the back-end (though it has disabled gRPC bindings/implementations that were used in completete PoC with implemented back-end).
 What's useful in hte sample:
