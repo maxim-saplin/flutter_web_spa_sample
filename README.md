@@ -2,7 +2,7 @@ This repo contains a PoC of using Flutter as a traditional SPA framework for cre
 What's useful in hte sample:
 - Building for wide screen right away (remember, Flutter is tailored to mobile dev)
 - Context pop-ups and right clicks which are not typical to mobile apps
-- Huge data grid which is the center of UX
+- Huge data grid which is the center of UX (with sorting, pagination and filter pop-ups appearing on column header clicks)
 - UI layout with common headers/footers and route specific contents of the cetner part
 - Routing, auth
 - IoC via Proivders

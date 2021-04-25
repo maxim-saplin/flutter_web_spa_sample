@@ -6,7 +6,8 @@ class Analytics extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MasterPage(Center(child: Text('Your ads here, call 1-800-CVTOOL')),
+    return MasterPage(
+        Center(child: Text('Your ads here, call 1-800-CVDATABANK')),
         Center(child: Text('Analytics')));
   }
 }

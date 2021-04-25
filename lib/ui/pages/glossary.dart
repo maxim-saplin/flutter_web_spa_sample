@@ -7,7 +7,7 @@ class Glossary extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MasterPage(
-        Center(child: Text('Your ads here, call 1-800-CVTOOL')),
+        Center(child: Text('Your ads here, call 1-800-CVDATABANK')),
 
         // CustomDataTable(columns: [
         //   DataColumn2(label: Text('X' * 1000))
