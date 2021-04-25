@@ -39,9 +39,9 @@ jobs:
         mkdir -p ./build/web2/html
         mkdir -p ./build/web2/canvaskit
         flutter build web --release --web-renderer html
-        cp -av ./build/web ./build/web2/html
+        cp -av ./build/web/* ./build/web2/html
         flutter build web --release --web-renderer canvaskit
-        cp -av ./build/web ./build/web2/canvaskit
+        cp -av ./build/web/* ./build/web2/canvaskit
       working-directory: ./
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.1
