@@ -1,16 +1,9 @@
-# flutter_web_spa_sample
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This repo contains a PoC of using Flutter as a traditional SPA framework for creating a desktop web app. The original app is based on AngularJS, uses OData to communicate with NodeJS/MongoDB back-end. This PoC mocks the back-end (though it has disabled gRPC bindings/implementations that were used in completete PoC with implemented back-end).
+What's useful in hte sample:
+- Building for wide screen right away (remember, Flutter is tailored to mobile dev)
+- Context pop-ups and right clicks which are not typical to mobile apps
+- Huge data grid which is the center of UX
+- UI layout with common headers/footers and route specific contents of the cetner part
+- Routing, auth
+- IoC via Proivders
+- Localization
