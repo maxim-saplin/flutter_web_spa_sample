@@ -35,10 +35,16 @@ jobs:
 #         flutter pub upgrade
 #       working-directory: ./
     - name: Build Web
-      run: flutter build web
+      run: |
+        mkdir -p ./build/web2/html
+        mkdir -p ./build/web2/canvaskit
+        flutter build web --release --web-renderer html
+        cp -av ./build/web/* ./build/web2/html
+        flutter build web --release --web-renderer canvaskit
+        cp -av ./build/web/* ./build/web2/canvaskit
       working-directory: ./
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@4.1.1
       with:
         branch: gh-pages # The branch the action should deploy to.
-        folder: ./build/web
+        folder: ./build/web2
