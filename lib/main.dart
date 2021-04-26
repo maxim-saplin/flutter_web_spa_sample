@@ -89,11 +89,15 @@ class MyApp extends StatelessWidget {
                 builder: (BuildContext context, Widget? child) {
                   if (MediaQuery.of(context).size.width < 700) {
                     return Center(
-                        child: Padding(
-                            padding: EdgeInsets.all(15),
-                            child: Text(
-                                'Screen is to small. Please use device with larger screen (or resize the window)',
-                                style: Theme.of(context).textTheme.subtitle1)));
+                        child: ColoredBox(
+                            color: Colors.white,
+                            child: Padding(
+                                padding: EdgeInsets.all(15),
+                                child: Text(
+                                    'Screen is to small. Please use device with larger screen (or resize the window)',
+                                    style: Theme.of(context)
+                                        .textTheme
+                                        .subtitle1))));
                   }
                   if (I18n.of(context).locale.languageCode !=
                       preferences.locale.languageCode) {
