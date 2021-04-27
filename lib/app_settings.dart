@@ -16,7 +16,7 @@ class AppSettings {
 // }
 
 class ReleaseAppSettings implements AppSettings {
-  String get host => "bvsdw-i-37338.scnsoft.com";
+  String get host => "test";
   int get port => 443;
   bool get grpcUseHttps => true;
   ReleaseAppSettings._();
